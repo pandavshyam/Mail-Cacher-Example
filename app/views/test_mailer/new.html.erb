@@ -1,0 +1,7 @@
+<h1>Hello, User</h1>
+<%= @message if @message %>
+<%= form_tag("/test_mailer/create", method: "post") do %>
+  <%= label_tag(:email, "Enter Your Email : ") %>
+  <%= text_field_tag(:email)%>
+  <%= submit_tag("Send Email") %>
+<% end %>
