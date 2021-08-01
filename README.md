@@ -1,5 +1,5 @@
 # Mail-Cacher-Example
-This repository contain sample application to send email to any email address using MailCacher gem
+This repository contain sample application to send email to any email address using MailCatcher gem
 
 ## Steps to run application
 - Clone the repository
